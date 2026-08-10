@@ -33,7 +33,10 @@
 <h2>🔄 Recent Activity</h2>
 
 <!-- RECENT_ACTIVITY:START -->
-<!-- RECENT_ACTIVITY:END -->
+- [Cygnuy](https://github.com/Cygnuy/Cygnuy) – No description
+- [MCServerManager](https://github.com/Cygnuy/MCServerManager) – No description
+- [OpenWebUI-Portable](https://github.com/Cygnuy/OpenWebUI-Portable) – 个人自用的 OpenWebUI Windows 便携式一键部署脚本
+
 
 ---
 
