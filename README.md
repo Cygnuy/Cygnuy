@@ -8,10 +8,10 @@
 
 ### 📊 GitHub Stats
 
-| <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=Cygnuy&show_icons=true&include_all_commits=true&theme=radical&hide_border=true" alt="Cygnuy's GitHub stats" /></a> | <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cygnuy&layout=compact&theme=radical&hide_border=true" alt="Top languages" /></a> |
-| ------------- | ------------- |
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="center" src="https://github-stats-alpha.vercel.app/api?username=Cygnuy&cc=22272e&tc=79ff97&ic=fff&bc=0000" alt="GitHub stats" />
+</a>
 
----
 
 ### 🔄 Recent Activity
 
