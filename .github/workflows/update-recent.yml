@@ -1,0 +1,23 @@
+name: Update Recent Activity
+
+on:
+  schedule:
+    - cron: '0 0 * * *'   # 每天 UTC 0 点运行
+  workflow_dispatch:      # 允许手动触发
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update README with recent repos
+        run: |
+          # 用 curl 获取最近推送的 5 个仓库（按 pushed_at 排序）
+          repos=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/user/repos?sort=pushed&direction=desc&per_page=5" \
+            | jq -r '.[] | "- [\(.name)](\(.html_url)) - \(.description // "No description")"')
+          
+          # 替换 README 中 <!-- RECENT_ACTIVITY:START --> 和 <!-- RECENT_ACTIVITY:END --> 之间的内容
+          sed -i "/<!-- RECENT_ACTIVITY:START -->/,/<!-- RECENT_ACTIVITY:END -->/c\<!-- RECENT_ACTIVITY:START -->\n$repos\n<!-- RECENT_ACTIVITY:END -->" README.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
