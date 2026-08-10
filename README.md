@@ -16,4 +16,8 @@
 ### 🔄 Recent Activity
 
 <!-- RECENT_ACTIVITY:START -->
-<!-- RECENT_ACTIVITY:END -->
+- [Cygnuy](https://github.com/Cygnuy/Cygnuy) – No description
+- [MCServerManager](https://github.com/Cygnuy/MCServerManager) – No description
+- [OpenWebUI-Portable](https://github.com/Cygnuy/OpenWebUI-Portable) – 个人自用的 OpenWebUI Windows 便携式一键部署脚本
+- [CloudFlare-ImgBed](https://github.com/Cygnuy/CloudFlare-ImgBed) – Open-source file hosting solution based on CloudFlare  (Image hosting/File storage/Cloud drive) / 基于 CloudFlare 的开源文件托管解决方案（图床/文件床/网盘）
+
